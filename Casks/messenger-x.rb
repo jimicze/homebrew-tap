@@ -1,9 +1,9 @@
 cask "messenger-x" do
-  arch arm: "aarch64", intel: "e5cca20ad3d2146b27dead48c252f78dbfcde0252ec03e3c673812c92e26e5c0"
+  arch arm: "aarch64", intel: "76259af105bfb2325ef9b99b196af9c4adbb80d256b87500028530ae4da38253"
 
-  version "1.3.21"
-  sha256 arm:   "bc657103531ddfe2a1e43a5900f4c4a32d2bd2e5102cb2b9613d082034704c9e",
-         intel: "e5cca20ad3d2146b27dead48c252f78dbfcde0252ec03e3c673812c92e26e5c0"
+  version "1.3.23"
+  sha256 arm:   "d6e9b8a9864a3b069ce65597def591aeb7fac9cbea87c4d8337110e58c1191e3",
+         intel: "76259af105bfb2325ef9b99b196af9c4adbb80d256b87500028530ae4da38253"
 
   url "https://github.com/jimicze/fb-messanger-crossplatform/releases/download/v#{version}/Messenger.X_#{version}_#{arch}.dmg"
   name "Messenger X"
